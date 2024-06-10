@@ -243,11 +243,174 @@
 
 
 
-var num = 8;
-var result = num * num;
-document.write("result = " + result + "<br>");
+// var num = 8;
+// var result = num * num;
+// document.write("result = " + result + "<br>");
 
 
-var num = 12;
-var result = num * num;
-document.write("result = " + result + "<br>");
+// var num = 12;
+// var result = num * num;
+// document.write("result = " + result + "<br>");
+
+// creating a function
+
+// function square(num1,num2)
+// {
+//     var result = num1 * num2;
+//     // document.write("Result = " + result + "<br>");
+//     return result;
+// }
+//calling function
+
+// var x = square(5,6);
+
+// document.write( "result = "+ x );
+
+
+//add function
+
+// function addition (x,y)
+// {
+//     var result = x + y ;
+//     document.write("Sum =" + result + "<br>") ;
+
+// }
+
+//sub function
+
+// function subtraction (x,y){
+//     var result = x - y ;
+//     document.write("Sub =" + result + "<br>") ;
+// }
+
+// addition(10,20);
+// subtraction(464,54)
+
+
+//craeting a function
+//calling a function
+//how to pass value in function
+//returning a value
+
+
+
+// var name1, name2, name3 , name4;
+
+// name1 = "Anis";
+// name2 = "Lima";
+// name3 = "shipa";
+// name4 = "Rinku";
+// // console.log(name3);
+
+
+// var names = new Array(5);
+// names[0] = "Anis";
+// names[1] = "Lima";
+// names[2] = "shipa";
+// names[3] = "Rinku";
+
+// var names = ["Anis", "Lima","shipa", "Rinku","suma" ]
+
+
+// names.push("sokina");
+// names.push("Liton");
+// names.push("Tara");
+// names.push("Lina");
+// console.log(names.length);
+
+// names.pop();
+// console.log(names);
+// console.log(names[0]);
+// console.log(names[1]);
+// console.log(names[2]);
+// console.log(names[3]);
+// console.log(names.length);
+
+
+
+// var country1 = ["Bangladesh", "India" ];
+// var country2 = ["Pakistan", "Nepal"];
+
+// var country = country1.concat(country2);
+// console.log(country);
+
+
+// var num = new Array();
+// var sum = 0;
+
+// for(var i = 0; i < 5; i++)
+// { 
+//     num[i] = parseInt(prompt("Enter a number : " ));
+//     // console.log(num[i]);
+//     // sum = sum + num[i];
+// }
+// var sum = 0;
+// for (var i = 0; i < 5; i++){
+//     console.log(num[i]);
+//     sum = sum + num[i];
+// }
+
+// console.log("sum = " + sum );
+
+// console.log(num[0]);
+// console.log(num[1]);
+// console.log(num[2]);
+// console.log(num[3]);
+// console.log(num[4]);
+
+
+// var names = ["Anis", "rabeya", "Kolpona"];
+// console.log(names)
+
+// names.shift();
+// console.log(names)
+
+// // unshift = opposite of push
+
+// names.unshift("Sagor");
+// console.log(names);
+
+// names.splice(2,1,"karim","Rahim");
+// console.log(names);
+
+
+// console.clear();
+//  function highestScore(scores){
+
+//     let max = scores[0];
+//     for(var x = 1; x < scores.length; x++){
+//         if(max < scores[x]){
+//             max = scores[x];        }
+//     }
+
+//     return max;
+//     // console.log(scores);
+//  }
+//  let scores =[12,34,56,87,65,78];
+//  var maxScores = highestScore(scores);
+
+// console.log(maxScores)
+
+
+// function highestRunScorer(playersInfo){
+
+
+//     var highestRunScorer = playersInfo[0][0];
+//     var highestRunScore = playersInfo[0][1];
+//     for(var x = 1; x < playersInfo.length; x++){
+//         if(highestRunScore < playersInfo [x][1]){
+
+//         }
+//     }
+// }
+// var playersInfo = [
+//     ["Ashraful", 95],
+//     ["Mizan", 25],
+//     ["Rakib",45],
+//     ["lu",104],
+// ];
+
+// highestRunScorer(playersInfo);
+
+
+
